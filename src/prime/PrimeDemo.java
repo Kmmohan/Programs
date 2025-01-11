@@ -1,0 +1,18 @@
+package prime;
+
+import java.util.Scanner;
+
+public class PrimeDemo {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		int num=scan.nextInt();
+		Prime s=new Prime();
+//		calling a methog
+		s.checkprime(num);
+		// TODO Auto-generated method stub
+
+	}
+
+}
